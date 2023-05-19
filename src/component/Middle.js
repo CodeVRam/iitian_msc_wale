@@ -21,12 +21,22 @@ const Middle = () => {
 }
 const Content = ()=>{
     return(
-    <div className='d-flex'>
-             <div className="motive_text">
-                <h1>Lets Start your </h1>
-                <span className='fs-1' >IIT</span>
-                <h1>Preparation with IITians</h1>
-             </div>
+    <div className='head2'>
+             <div class="sec21">
+            <div>
+                <h1 className='d-flex'> Let's Start Your </h1>
+            </div>
+            <div>
+                <h1 class="sec21re">
+                <marquee width="80%" direction="left" height="100%" scrollamount="10">
+                  I I T 
+                </marquee>
+            </h1>
+            </div>
+            <div>
+                <h1> Preparation With IITians </h1>
+            </div>
+        </div>
              <div>
                  <img src={c1} alt="" />
              </div>
